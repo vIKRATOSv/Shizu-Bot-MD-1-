@@ -1,39 +1,46 @@
-# `👑Shizu-Bot👑`
+# <h1 align="center">👑Shizu-Bot👑</h1>
 
 <p align="center"> 
-  <a href="https://github.com/Shizu-Hub"><img src="http://readme-typing-svg.herokuapp.com?font=Arial+black&color=DCC12E&lines=BIENVENIDO+A+;SHIZU-BOT;ESPERO+QUE+ESTE+BOT;SEA+DE+TU+AGRADO+:v+%F0%9F%91%8B" height="70px"
+  <a href="https://github.com/Shizu-Hub"><img src="http://readme-typing-svg.herokuapp.com?font=Arial+black&color=DCC12E&lines=WELCOME+TO+SHIZU-BOT-MD;CREATOR+OF+THE+BOT+AHMAD+ALI;THANKS+FOR+CHOSING+SHIZU+BOT+:v+%F0%9F%91%8B" height="70px"
 </p>
 
 ![Snake animation](https://github.com/GataNina-Li/GataNina-Li/blob/output/github-contribution-grid-snake.svg)
 </div>
-  
-### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
-  <p align="left">
-<a href="https://github.com/NeKosmic-NK"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=14&duration=3000&color=ABF7BB&center=verdadero&vCenter=verdadero&lines=Solo+escr%C3%ADba+si+tiene+dudas." height="40px"
-</p>
-  
-<a href="http://wa.me/34623442554" target="blank"><img src="https://img.shields.io/badge/Shizu-Hub-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-<a href="https://chat.whatsapp.com/Eec9Dd1uVd90Ac0U8mTgUh" target="red"><img src="https://img.shields.io/badge/Dark-Side-25D366?style=for-the-badge&logo=whatsapp&logoColor=red" />
+<p align="center">
+<a href="https://github.com/xIKRATOSx"><img title="Author" src="https://img.shields.io/badge/AUTHOR-xIKRATOSx-green.svg?style=for-the-badge&logo=github"></a>
+
+---------
+
+## ```DOUBTS ABOUT THE BOT?, CONTACT ME 💌``` 
+  <a href="https://wa.me/923470027813">
+    <img align="left" alt="SIEGRIN | Whastapp" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Whatsapp.svg" />
+  </a> &nbsp;&nbsp;
+  <a href="mailto:bmclips001@gmail.com">
+    <img align="left" alt="SIEGRIN | Gmail" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Gmail.svg" />
+  </a> &nbsp;&nbsp;
+  
+---------
+  
+ 
+<a href="http://wa.me/923470027813" target="blank"><img src="https://img.shields.io/badge/xIKRATOSx-Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+<a href="https://chat.whatsapp.com/KqYY92moqLG4Ik0QWRIgio" target="red"><img src="https://img.shields.io/badge/Group-Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=red" />
 </a>
   
 
 <p align="hihg">   
-<a href="https://instagram.com/shizu.bot" target="_blank"> <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=yellow" target="_blank"></a>
+<a href="https://instagram.com/itx_ahmad.ali" target="_blank"> <img src="https://img.shields.io/badge/Dark-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=yellow" target="_blank"></a>
   
-> LOS NUMEROS NO SON BOTS Y EN EL GRUPO NO SE PERMITEN NUMEROS-BOTS
+> NUMBERS ARE NOT BOTS AND NUMBERS-BOTS ARE NOT ALLOWED IN THE GROUP
 
-### `—◉ 💰 DONAR 💰`
-- AGRADECE CON UNA DONACION VOLUNTARIA [Aqui](https://www.paypal.me/NeKosmicOFC)
 
-### `—◉ 🖍 LETRA DEL BOT 🖍`
-- PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 
-### `—◉ 💕 PLUGINS 💕`
-- TIENES IDEAS DE PLUGINS O QUIERES OBTENER MAS PLUGINS? DA CLICK EN [https://github.com/theh2so4/Mystic-Plugins](https://github.com/theh2so4/Mystic-Plugins)
+### `—◉  PLUGINS `
+- HAVE IDEAS FOR PLUGINS OR WANT TO GET MORE PLUGINS? CLICK ON [https://github.com/theh2so4/Mystic-Plugins](https://github.com/theh2so4/Mystic-Plugins)
 
-### `—◉ 👾 ACTIVAR EN TERMUX 👾` 
-- ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+### `—◉  ACTIVATE IN TERMUX ` 
+- TYPE THE FOLLOWING COMMANDS ONE BY ONE:
 ```bash
 > cd
 > termux-setup-storage
@@ -44,8 +51,8 @@
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > pkg install yarn
-> git clone https://github.com/Shizu-Hub/WaBot-MD
-> cd WaBot-MD
+> git clone https://github.com/xIKRATOSx/Shizu-Bot-MD
+> cd Shizu-Bot-MD
 > yarn install 
 > npm install
 > npm update
@@ -53,43 +60,51 @@
 > npm start
 ```
 
-### `—◉ ✔️ ACTIVAR EN CASO DE DETENERSE EN TERMUX ✔️`
+### `—◉ ✔️ ACTIVATE IN CASE OF STOP IN TERMUX ✔️`
 ```bash
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+TYPE THE FOLLOWING COMMANDS ONE BY ONE:
 > cd 
-> cd WaBot-MD
+> cd Shizu-Bot-MD
 > npm start
 ```
 
-### `—◉ 👽 OBTENER OTRO CODIGO QR EN TERMUX 👽`
-- DETENER EL BOT DANDO CLICK EN EL SIMBOLO CTROL EN TERMUX MAS LA LETRA Z EN SU TECLADO MOVIL HASTA QUE SALGA ALGO EN VERDE SIMILAR A Shizu-Termux $  
+### `—◉  GET ANOTHER QR CODE IN TERMUX `
+- STOP THE BOT BY CLICKING ON THE CTROL SYMBOL IN TERMUX PLUS THE LETTER Z ON YOUR MOBILE KEYBOARD UNTIL SOMETHING IN GREEN SIMILAR TO Shizu-Termux $  
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
 > cd Shizu-Termux
-> rm -rf WaBot-MDSession
+> rm -rf MysticSession
 > npm start
 ```
   
-### `—◉ 💥 ACTIVAR EN ACIDICNODES 💥`
+### `—◉ TUTORIAL: HOW TO HOST A BOT 💥`
 <a href="https://billing.acidicnodes.ml/register?ref=nSzLjTPd" width="100" height="100" alt="acidicnodes"/></a>
-- TUTORIAL: [https://youtu.be/nbjvreJ0tUk](https://youtu.be/nbjvreJ0tUk)
-- PAGINA: [https://billing.acidicnodes.ml/register?ref=nSzLjTPd](https://billing.acidicnodes.ml/register?ref=nSzLjTPd)
-- SOPORTE: [https://whatsapp.acidicnodes.com](https://whatsapp.acidicnodes.com)
+- TUTORIAL: [https://www.youtube.com/watch?v=_TuRgyR5I_0](https://www.youtube.com/watch?v=_TuRgyR5I_0)
 
-### `—◉ 📝 NOTAS 📝`
-- ES POSIBLE QUE EL BOT TENGA ALGUNAS FALLAS, SE IRAN SOLUCIONANDO CONFORME SE VAYAN DETECTANDO
-- SI VAS A EDITAR POR COMPLETO DEJA LOS CREDITOS DEL BOT 
-- EL BOT ES COMPARTIBLE CON WHATSAPP NORMAL O BUSINESS
-- ATENTO A LAS ACTUALIZACIONES QUE SE HAGAN EN ESTE REPOSITORIO
-- EL ADD Y EL KICK PUEDEN OCASIONAR QUE EL NUMERO SE VAYA A SOPORTE POR ELLO SE ACTIVA CON #enable restrict 
-- SHIZU-HUB NO SE HACE RESPONSABLE DEL USO, NUMEROS, PRIVACIDAD Y CONTENIDO MANDADO, USADO O GESTIONADO POR USTEDES O EL BOT
 
-## `COLABORADORES DEL BOT`
+### `—◉ 📝 NOTES 📝`
+- IT IS POSSIBLE THAT THE BOT HAS SOME FAILURES, THEY WILL BE SOLVED AS THEY ARE DETECTED
+- IF YOU ARE GOING TO EDIT COMPLETELY LEAVE THE BOT CREDITS 
+- THE BOT IS SHARED WITH NORMAL OR BUSINESS WHATSAPP
+- WATCH OUT FOR UPDATES MADE IN THIS REPOSITORY
+- THE ADD AND THE KICK CAN CAUSE THE NUMBER TO GO TO SUPPORT, THEREFORE IT IS ACTIVATED WITH #enable restrict 
+- xIKRATOSx IS NOT RESPONSIBLE FOR THE USE, NUMBERS, PRIVACY AND CONTENT SENT, USED OR MANAGED BY YOU OR THE BOT
+
+## `COLABORATORES OF BOT`
   <a href="https://github.com/theh2so4"><img src="https://github.com/theh2so4.png" width="100" height="100" alt="theh2so4"/></a>
 <a href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="100" height="100" alt="BrunoSobrino"/></a>
+<a href="https://github.com/Shizu-Hub"><img src="https://github.com/Shizu-Hub.png" width="100" height="100" alt="theh2so4"/></a>
 
-## `EDITOR Y PORPIETARIO DEL BOT` 
-<a href="https://github.com/Shizu-Hub"><img src="https://github.com/Shizu-Hub.png" width="300" height="300" alt="Shizu"/></a>
+## `PUBLISHER AND PROPRIETARY OF THE BOT` 
 
-`Shizu-Bot-MD _ By Shizu-Hub`
+<p align="center">
+<a href="https://github.com/xIKRATOSx"><img src="https://github.com/xIKRATOSx.png" width="300" height="300" alt="Shizu"/></a>
+</p>
+
+<h3 align="center">Shizu-Bot-MD</h3>
+<h3 align="center">By xIKRATOSx</h3> 
+
+--------
+
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=xIKRATOSx&repository=Shizu-Bot-MD&label=REpo%20views&color=0e75b6&style=flat" alt="100rabhcsmc" /> </p>
