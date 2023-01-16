@@ -1001,7 +1001,7 @@ export async function handler(chatUpdate) {
                     for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                         let data = (await conn.onWhatsApp(jid))[0] || {}
                         if (data.exists)
-                            m.reply(`*[ ⚠️ failed command report ⚠️ ]*\n\n*—◉ 𝙿𝙻𝚄𝙶𝙸𝙽:* ${name}\n*—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${m.sender}\n*—◉ 𝙲𝙾𝙼𝙰𝙽𝙳𝙾:* ${m.text}\n\n*—◉ 𝙴𝚁𝚁𝙾𝚁:*\n\`\`\`${format(e)}\`\`\`\n\n*[❗] 𝚁𝙴by𝚃𝙴𝙻𝙾 𝙰𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙳𝙴𝙻 𝙱𝙾𝚃 𝙿𝙰𝚁𝙰 𝙳𝙰𝚁𝙻𝙴 𝚄𝙽𝙰 𝚂𝙾𝙻𝚄𝙲𝙸𝙾𝙽, 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 #reporte*`.trim(), data.jid)
+                            m.reply(`*[ ⚠️ failed command report ⚠️ ]*\n\n*—◉ PLUGIN:* ${name}\n*—◉ USER:* ${m.sender}\n*—◉ COMMAND:* ${m.text}\n\n*—◉ ERROR:*\n\`\`\`${format(e)}\`\`\`\n\n*KNOW A SOLUTION? REPORT IT TO THE CREATOE SO HE CAN FIX IT, TO REPORT, TYPE #reporte*`.trim(), data.jid)
                     }
                 }
             }
@@ -1173,7 +1173,7 @@ export async function handler(chatUpdate) {
                             for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                                 let data = (await conn.onWhatsApp(jid))[0] || {}
                                 if (data.exists)
-                                    m.reply(`*[ ⚠️ failed command report ⚠️ ]*\n\n*—◉ 𝙿𝙻𝚄𝙶𝙸𝙽:* ${m.plugin}\n*—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${m.sender}\n*—◉ 𝙲𝙾𝙼𝙰𝙽𝙳𝙾:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n*[❗] report it to the creator of the bot to give him a solution, you can use the command #reporte*`.trim(), data.jid)
+                                    m.reply(`*[ ⚠️ FAILED COMMAND REPORT ⚠️ ]*\n\n*—◉ PLUGIN:* ${m.plugin}\n*—◉ USER:* ${m.sender}\n*—◉ COMMAND:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n*[❗] report it to the creator of the bot to give him a solution, you can use the command #reporte*`.trim(), data.jid)
                             }
                         m.reply(text)
                     }
@@ -1187,7 +1187,7 @@ export async function handler(chatUpdate) {
                         }
                     }
                     if (m.limit)
-                        m.reply(+m.limit + ' 𝐃𝐈𝐀𝐌𝐀𝐍𝐓𝐄 💎 𝐔𝐒𝐀𝐃𝐎')
+                        m.reply(+m.limit + ' DIAMOND 💎 USER')
                 }
                 break
             }
@@ -1279,7 +1279,7 @@ export async function participantsUpdate({ id, participants, action }) {
                         
 //let ftroli = { key: { fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us" }, "message": { orderMessage: { itemCount: 6546464643, status: 200, thumbnail: imagen1, surface: 200, message: wm, orderTitle: wm, sellerJid: '0@s.whatsapp.net' }}, contextInfo: { "forwardingScore": 999, "isForwarded": true}, sendEphemeral: true}   
 
-this.sendButton(id, text, groupMetadata.subject, apii.data, [[(action == 'add' ? '💫 Welcome 💫' : '☠ Good-Bye ☠'), (action == 'add' ? '#welcomegc' : '#byegc')], ['♦ command menu ♦', `#menu`]], null, {mentions: this.parseMention(text)})
+this.sendButton(id, text, groupMetadata.subject, apii.data, [[(action == 'add' ? ' Welcome ' : ' Good-Bye '), (action == 'add' ? '#welcomegc' : '#byegc')], ['♦ command menu ♦', `#menu`]], null, {mentions: this.parseMention(text)})
                 
 /* this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }) */
                    }
@@ -1354,7 +1354,7 @@ export async function deleteUpdate(message) {
         await this.reply(msg.chat, `
 ━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━
 *■ Number:* @${participant.split`@`[0]}
-*■ sending the message..*
+*■ You deleted this message..*
 *■ To disable this feature type the command:*
 *—◉ #disable antidelete*
 *—◉ #enable delete*
@@ -1370,16 +1370,16 @@ export async function deleteUpdate(message) {
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓 ⚠️ ] this command can only be used by the owner of the bot*',
-        owner: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓 ⚠️ ] this command can only be used by the owner of the bot*',
-        mods: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓 ⚠️ ] this command can only be used by moderators and the owner of the bot*',
-        premium: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓 ⚠️ ] this command can only be used by premium users and the owner of the bot*',
-        group: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓 ⚠️ ] this command can only be used in groups*',
-        private: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓 ⚠️ ] this command can only be used in private chat of bot*',
-        admin: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓 ⚠️ ] this command can only be used by ADMINS of GROUP*',
-        botAdmin: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓 ⚠️ ] To be able to use this command it is necessary that the bot is admin, add this number to admin*',
+        rowner: '*This command can only be used by the owner of the bot*',
+        owner: '*This command can only be used by the owner of the bot*',
+        mods: '*This command can only be used by moderators and the owner of the bot*',
+        premium: '*This command can only be used by premium users and the owner of the bot*',
+        group: '*This command can only be used in groups*',
+        private: '*This command can only be used in private chat of bot*',
+        admin: '*This command can only be used by ADMINS of GROUP*',
+        botAdmin: '*To be able to use this command it is necessary that the bot is admin, add this number to admin*',
         unreg: '*[ 🛑 hey!! stop, you are not registered 🛑 ]*\n\n*—◉ to use this command you must register, use the command*\n*➣ #verificar*',
-        restrict: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓 ⚠️ ] this command is restricted/disabled by decision of the bot owner*'
+        restrict: '*This command is restricted/disabled by decision of the bot owner*'
     }[type]
     if (msg) return m.reply(msg)
 }

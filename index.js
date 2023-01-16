@@ -1,4 +1,4 @@
-console.log('✅ㅤstarting...')
+console.log('✅ starting...')
 import { join, dirname } from 'path'
 import { createRequire } from "module";
 import { fileURLToPath } from 'url'
@@ -17,7 +17,7 @@ say('Ikratos - Bot\nWhatsApp Bot MD', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`Bot creado por Ikratos-Hub`, {
+say(`Bot Creator xIKRATOSx`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})

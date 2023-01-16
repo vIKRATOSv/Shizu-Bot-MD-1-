@@ -65,7 +65,7 @@ global.db.chain = chain(global.db.data)
 }
 loadDatabase()
 
-global.authFile = `MysticSession`
+global.authFile = `IkratosSession`
 const { state, saveState, saveCreds } = await useMultiFileAuthState(global.authFile)
 
 const connectionOptions = {
@@ -99,15 +99,15 @@ const tmp = [tmpdir(), join(__dirname, './tmp')]
 const filename = []
 tmp.forEach(dirname => readdirSync(dirname).forEach(file => filename.push(join(dirname, file))))
    
-     /* Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        Mas no me arrepiento de haberme reido
-        Por que la grasa es un sentimiento
-        Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        que me arrepiento de ser un grasoso
-        Por que la grasa es un sentimiento
-        - El waza 👻👻👻👻 (Aiden)            */
+     /* And that was the best momazo in the world
+         Even if I didn't hesitate for a second
+         But I do not regret having laughed
+         because fat is a feeling
+         And that was the best momazo in the world
+         Even if I didn't hesitate for a second
+         I regret being greasy
+         because fat is a feeling
+         - the waza 👻👻👻👻 (Aiden)            */
    
 /*readdirSync("./jadibts").forEach(file => {
 const btprs = function (folder) {
@@ -125,9 +125,9 @@ readdirSync("./jadibts/" + file).forEach(file2 => {
 if (file2 !== "creds.json") { unlinkSync("./jadibts/" + file + "/" + file2) }})
 } catch {}}})*/
        
-readdirSync("./MysticSession").forEach(file => {
+readdirSync("./IkratosSession").forEach(file => {
 if (file !== 'creds.json') {
-unlinkSync("./MysticSession/" + file, { recursive: true, force: true })}})    
+unlinkSync("./IkratosSession/" + file, { recursive: true, force: true })}})    
 return filename.map(file => {
 const stats = statSync(file)
 if (stats.isFile() && (Date.now() - stats.mtimeMs >= 1000 * 60 * 3)) return unlinkSync(file) // 3 minutes
@@ -175,7 +175,7 @@ conn.ev.off('creds.update', conn.credsUpdate)
 }
   
 conn.welcome = '*╭┈⊰* @subject *⊰┈ ✦*\n*┃✨ WELCOME!!*\n┃💖 @user\n┃📄 *READ THE DESCRIPTION OF THE ┃GROUP*\n*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ ✦*\n\n@desc*'
-conn.bye = '*╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰*\n┃ @user\n┃ *THE GROUP DOESN"T KNOW, BYE!!* ┃😎\n*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰*'
+conn.bye = '*╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰*\n┃ @user\n┃ *Has left the group, BYE!!* ┃😎\n*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰*'
 conn.spromote = '*@user is now group admin!!*'
 conn.sdemote = '*@user is not an admin now !!*'
 conn.sDesc = '*group description has been changed*\n\n*NEW DESCRIPTION:* @desc'
